@@ -92,3 +92,12 @@
     
 
     }
+
+  .social{
+    color: black;
+    transition: color 0.2s;
+    margin: 0 10px;
+  }
+  .social :hover{
+    color: darkgrey;
+  }
