@@ -76,6 +76,48 @@ body{
   }
   
   .navbar a:hover {
-    background-color: #ddd;
     color: #b9b9b9;
+  }
+  .footer {
+    padding: 14px 20px;
+    text-align: center;
+    
+  }
+  
+  @media screen and (max-width: 700px) {
+    .row {   
+      flex-direction: column;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .navbar a {
+      float: none;
+      width: 100%;
+    }
+    
+
+    }
+
+  .social{
+    color: rgb(118, 119, 189);
+    transition: color 0.2s;
+    margin: 5 10px;
+    align-self: ce;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-decoration: none;
+
+
+  }
+  .social :hover{
+    color: #e4e3e3;
+  }
+
+  h3{
+    color: rgb(192, 192, 192);
+    font-size: 20px;
+    font-family: 'Century Gothic',sans-serif;
+
   }
