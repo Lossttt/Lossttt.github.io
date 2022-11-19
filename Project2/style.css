@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(pictures/aesthetic-moon-wallpaper-1920x1080-4.jpg) no-repeat;
+    background: url(pictures/16344.jpg) no-repeat;
     background-size: cover;
   }
   .box{
@@ -32,7 +32,8 @@ body{
     font-weight: 100;
   }
   .box p{
-    text-align: justify;
+    text-align: center;
+    word-spacing: 2px;
   }
   ul{
     margin: 0;
@@ -55,7 +56,8 @@ body{
 
   .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(27, 27, 27);
+    font-family: 'Century Gothic',sans-serif;
   }
   
   .navbar a {
@@ -65,13 +67,15 @@ body{
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
+    font-family: 'Century Gothic',sans-serif;
   }
   
   .navbar a.right {
     float: right;
+    font-family: 'Century Gothic',sans-serif;
   }
   
   .navbar a:hover {
     background-color: #ddd;
-    color: black;
+    color: #b9b9b9;
   }
