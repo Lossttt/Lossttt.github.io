@@ -1,40 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+      <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+      <meta http-equiv="Pragma" content="no-cache" />
+      <meta http-equiv="Expires" content="0" />
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <link href="style.css" rel="stylesheet">
     <title>Personal WebSite</title>
   </head>
   <body>
 
 <!---NavBar-->
 
-    <div class="navbar">
-        <a class="button" href="/Website/introduction.html">About Me</a>
-        <a class="button" href="/projects">Projects</a>
-        <a class="button" href="/hobbies">Hobbies</a>
-        <a class="button" href="/socials" class="right">Contact Me</a>
-      </div>
 
+      <div id="navbar-placeholder">
+
+      </div>
+  
+      <script>
+          $(function () {
+              $("#navbar-placeholder").load("navbar.html");
+          });
+      </script>
 
 <!---HomePage-->
 
-<div class="box">
-  <img src="images/pfp.jpg" class="box-img">
-  <h1>
-  <b>Hi there,</b>
-  </h1>
-<h5>
-It's nice to  meet you.</h5>
-<p>
-    My name is Ayoub, an 18 year old guy from the Netherlands. I'm currently a student at the the University of Applied Sciences in The Hague. I'm trying to become a Software Engineer.<br>
-    <br>
-    I was born and raised in Leiden, the Netherlands, where I developed a strong interest in technology and programming. This website is one of those examples where I try to gain more experience in programming and trying to make a product from scratch.
-<br>
-<br>
-  &copy 2022 Lost 
+
 
 <!---Footer-->
 <div class="footer">
