@@ -1,8 +1,10 @@
 body{
+  transition: 1s;
     margin: 0;
     padding: 0;
     background: url(images/bruh.jpg) no-repeat;
     background-size: cover;
+    background-color: rgba(35, 67, 137, 1);
   }
   .box{
     width: 450px;
@@ -55,12 +57,14 @@ body{
   }
 
   .navbar {
+    transition: 1s;
     overflow: hidden;
     background-color: rgb(27, 27, 27);
     font-family: 'Century Gothic',sans-serif;
   }
   
   .navbar a {
+
     float: left;
     display: block;
     color: white;
@@ -120,4 +124,26 @@ body{
     font-size: 20px;
     font-family: 'Century Gothic',sans-serif;
 
+  }
+
+  .border2{
+    width: 450px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+  }
+  .border2-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+  .box h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    align-items: center;
   }
