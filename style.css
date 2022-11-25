@@ -2,7 +2,7 @@ body{
   transition: 1s;
     margin: 0;
     padding: 0;
-    background: url(images/bruh.jpg) no-repeat;
+    background: url(Website/images/bruh.jpg) no-repeat;
     background-size: cover;
     background-color: rgba(35, 67, 137, 1);
   }
