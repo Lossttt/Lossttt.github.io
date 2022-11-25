@@ -127,9 +127,10 @@ body{
   }
 
   .border2{
-    width: 450px;
+    size: 450px 450px;
+    height: 450px;
     background: rgba(0, 0, 0, 0.4);
-    padding: 40px;
+    padding: 30px;
     text-align: center;
     margin: auto;
     margin-top: 5%;
@@ -146,4 +147,18 @@ body{
     letter-spacing: 2px;
     font-weight: 100;
     align-items: center;
+  }
+
+  .projectpage{
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+    margin: 30px 30px;
+  }
+  .border2 h4{
+    font-size: 15px;
+    color: white;
+    margin: 20px 20px;
+    text-align: center;
+    font-weight: 150;
   }
