@@ -277,6 +277,30 @@ footer{
 .navbar-footer a:hover {
   color: #b9b9b9;
 }
+   /*----------------------------Hobbies-Page----------------------------------*/
+   .parallaxcenter {
+    font-size: 550%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    transition: 1s;
+    opacity: 50%;
+    background-image: url(images/shooting-stars-in-sky.jpg) no-repeat;
+}
+  .hobbies-page{
+    transition: 1s;
+    margin: 0;
+    padding: 0;
+    background: url(images/shooting-stars-in-sky.jpg) no-repeat;
+    background-size: cover;
+    background-color: rgb(0, 0, 0); 
+    width: 100%;
+
+}
    /*----------------------------scrollbar----------------------------------*/
     /* width */
     ::-webkit-scrollbar {
