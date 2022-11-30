@@ -253,6 +253,30 @@ footer{
   opacity: .4;
   font-weight: 200;
 }
+
+.navbar-footer {
+  transition: 1s;
+  overflow: hidden;
+  background-color: rgb(27, 27, 27);
+  font-family: 'Century Gothic',sans-serif;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.navbar-footer a {
+
+  color: rgba(164, 164, 164, 0.649);
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-family: 'Century Gothic',sans-serif; 
+}
+.navbar-footer a:hover {
+  color: #b9b9b9;
+}
    /*----------------------------scrollbar----------------------------------*/
     /* width */
     ::-webkit-scrollbar {
