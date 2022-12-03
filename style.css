@@ -53,7 +53,7 @@
   .navbar {
     transition: 1s;
     overflow: hidden;
-    background-color: rgb(27, 27, 27);
+    background-color: rgba(0, 0, 0, 0.384);
     font-family: 'Century Gothic',sans-serif;
   }
   
@@ -232,13 +232,13 @@ footer{
  } 
 
 .socials :hover{
-  color: #e4e3e3;
+  color: #b9b9b9;
 
 }
 .footer-bottom{
-  background-color: rgba(20, 20, 20, 0.555);
+  background-color: rgba(20, 20, 20, 0.39);
   width: auto;
-  padding: 10px;
+  padding: 5px;
   text-align: center;
   font-family: sans-serif;
 
@@ -262,12 +262,12 @@ footer{
   justify-content: center;
   flex-direction: column;
   text-align: center;
-
+  margin-bottom: 10px;
 }
 
 .navbar-footer a {
 
-  color: rgba(164, 164, 164, 0.649);
+  color: rgba(164, 164, 164, 0.582);
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
@@ -285,7 +285,7 @@ footer{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(0, 0, 0);
+    color: rgba(0, 0, 0, 0.425);
     transition: 1s;
     opacity: 50%;
     background-image: url(images/shooting-stars-in-sky.jpg) no-repeat;
