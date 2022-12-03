@@ -221,14 +221,17 @@ footer{
   .footer-content h3 {
     font-size: 1.8rem;
     font-weight: 400;
-    text-transform: capitalize;
-    line-height: 5px;
+    line-height: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 50%;
+    letter-spacing: 2px;
     
   }
  .footer-content p{
   line-height: 28px;
   font-size: 14px;
   font-family: sans-serif;
+  letter-spacing: 3px;
  } 
 
 .socials :hover{
