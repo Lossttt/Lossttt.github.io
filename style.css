@@ -53,7 +53,7 @@
   .navbar {
     transition: 1s;
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.384);
+    background-color: rgba(0, 0, 0, 0.411);
     font-family: 'Century Gothic',sans-serif;
   }
   
@@ -187,6 +187,16 @@
   width: 640px;
   height: 390px;
 }
+.parallax h4{
+  letter-spacing: .5px;
+  color: rgb(211, 211, 211);
+  line-break: auto;
+  line-height: 20px;
+}
+.parallax h2{
+  color: rgba(255, 255, 255, 0.952);
+
+}
 .imgcenter {
   display: flex;
   align-items: center;
@@ -199,8 +209,9 @@
 
 .imggallery {
   float: left;
-  width: 48%;
+  width: 28%;
   margin: 10px;
+  margin: 25px;
 }
 
 footer{
@@ -265,7 +276,7 @@ footer{
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: auto;
 }
 
 .navbar-footer a {
