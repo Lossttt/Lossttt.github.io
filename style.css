@@ -145,10 +145,10 @@
   }
   .hr{
     width: 100%;
-    height: .2px;
+    height: .1px;
     border-width: 0;
     color: rgba(255, 255, 255, 0.336);
-    background-color: rgba(0, 0, 0, 0.63);
+    background-color: rgba(95, 94, 94, 0.63);
   }
 /*--------------------Project Page------------------*/
   .border2{
