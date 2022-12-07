@@ -289,8 +289,8 @@ footer{
  } 
 
 .socials :hover{
-  color:  rgb(118, 119, 189);
-
+  color: rgb(109, 109, 109);
+  transition: .2s;
 }
 .footer-bottom{
   background-color: rgb(0, 0, 0);
@@ -307,8 +307,11 @@ footer{
 }
 .footer-bottom span{
   text-transform: uppercase;
-  opacity: .4;
+  opacity: .9;
   font-weight: 200;
+  text-decoration-line: underline;
+  text-underline-position: under;
+  color: rgba(255, 255, 255, 0.862);
 }
 
 .navbar-footer {
@@ -331,7 +334,30 @@ footer{
   font-family: 'Century Gothic',sans-serif; 
 }
 .navbar-footer a:hover {
-  color:  rgb(118, 119, 189);
+  color:  rgb(255, 255, 255);
+}
+.footer-rules{
+  font-size: 13px;
+  transition: 1s;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  font-family: 'Century Gothic',sans-serif;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-rules a{
+  color: rgba(183, 183, 183, 0.325);
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-family: 'Century Gothic',sans-serif; 
+  text-decoration-line: underline;
+  text-underline-position: under;
+}
+.footer-rules a:hover{
+  color: rgb(255, 255, 255);
 }
 /*--------------------Hobbie Page------------------*/
 .parallaxcenter {
