@@ -4,12 +4,13 @@
 /*--------------------Home Page------------------*/
 @media screen and (min-width: 1201px) {
   .box{
-    width: 450px;
+    width: 550px;
     background: rgba(0, 0, 0, 0.63);
     padding: 40px;
     text-align: center;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 1%;
+    margin-bottom: 5%;
     color: white;
     font-family: 'Century Gothic',sans-serif;
     transition: .4s;
@@ -100,7 +101,7 @@
     justify-content: space-between;
     padding-top: 10px;
     padding-left: 5%;
-    padding-right: 10%;
+    padding-right: 12%;
   }
   .logo{
     color:  rgb(110, 108, 194);
@@ -111,6 +112,7 @@
   }
   span{
     color: rgb(118, 74, 199);
+    font-weight: bold;
   }
   nav ul li{
     list-style-type: none;
