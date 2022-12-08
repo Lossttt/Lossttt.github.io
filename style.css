@@ -361,6 +361,24 @@ footer{
 .footer-rules a:hover{
   color: rgb(255, 255, 255);
 }
+.terms h4 {
+  letter-spacing: .5px;
+  color: rgb(211, 211, 211);
+  line-break: auto;
+  text-align: left;
+  line-height: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  align-items: center;
+}
+.rules-home a {
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-family: 'Century Gothic',sans-serif; 
+  text-decoration-line: underline;
+  text-underline-position: under;
+}
 /*--------------------Hobbie Page------------------*/
 .parallaxcenter {
     font-size: 550%;
