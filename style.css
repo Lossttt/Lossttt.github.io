@@ -262,9 +262,8 @@
 footer{
     background: rgb(0, 0, 0);
     width: 100%;
-    padding-top: 20px;
+    padding-top: 40px;
     color: white;
-    margin-top: 1400px;
   }
 
   .footer-content {
@@ -364,22 +363,56 @@ footer{
 
 }
 .terms h4 {
-  letter-spacing: .5px;
-  color: rgb(211, 211, 211);
-  line-break: auto;
+  letter-spacing: .8px;
+  color: rgb(118, 119, 189);
   text-align: left;
-  line-height: 20px;
-  margin-left: 100px;
+  line-height: 25px;
+  margin-left: 350px;
   margin-right: 100px;
   align-items: center;
+  font-size: 20px;
+  text-decoration: underline;
+  text-underline-position: under;
+  font-weight: bold;
+}
+}
+.terms p {
+  letter-spacing: .5px;
+  color: rgb(255, 255, 255);
+  line-break: auto;
+  text-align: left;
+  line-height: 25px;
+  margin-left: 550px;
+  margin-right: 550px;
+  align-items: center;
+  font-weight: lighter;
+  font-size: 15px;
+}
+.rules-home  {
+  transition: 1s;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  font-family: 'Century Gothic',sans-serif;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 550px;
+  margin-right: 550px;
+  letter-spacing: .5px;
+  font-size: 13px;
 }
 .rules-home a {
+  color: rgba(213, 213, 213, 0.582);
   text-align: center;
-  padding: 10px 10px;
   text-decoration: none;
   font-family: 'Century Gothic',sans-serif; 
-  text-decoration-line: underline;
+  text-decoration: underline;
   text-underline-position: under;
+}
+.rules-home a:hover {
+  color: rgb(255, 255, 255);
+  transition: .4s;
 }
 /*--------------------Hobbie Page------------------*/
 .parallaxcenter {
@@ -421,7 +454,6 @@ footer{
     margin: 20px;
   }
 
-}
 /*--------------------Scrollbar (universal)------------------*/
     /* width */
     ::-webkit-scrollbar {
