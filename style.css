@@ -264,6 +264,7 @@ footer{
     width: 100%;
     padding-top: 40px;
     color: white;
+    margin-bottom: 100px;
   }
 
   .footer-content {
@@ -359,9 +360,16 @@ footer{
 }
 .footer-rules a:hover{
   color: rgb(255, 255, 255);
-/*--------------------Rules Page------------------*/
-
 }
+.projectfooter {
+  margin-top: 1300px;
+  background: rgb(0, 0, 0);
+  width: 100%;
+  padding-top: 40px;
+  color: white;
+  margin-bottom: 100px;
+}
+/*--------------------Rules Page------------------*/
 .terms h4 {
   letter-spacing: .8px;
   color: rgb(118, 119, 189);
