@@ -126,8 +126,8 @@
     margin-right: 50px;
   }
   nav ul li a:hover{
-  color: rgb(118, 119, 189);
-  transition: .3s;
+    color: rgb(118, 119, 189);
+    transition: .3s;
   }
   button{
     border: none;
@@ -237,6 +237,8 @@
   color: rgb(211, 211, 211);
   line-break: auto;
   line-height: 20px;
+  margin-left: 50px;
+  margin-right: 5 0px;
 }
 .parallax h2{
   color: rgba(255, 255, 255, 0.952);
