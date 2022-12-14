@@ -124,6 +124,8 @@
     text-decoration: none;
     font-weight: bold;
     margin-right: 50px;
+    text-decoration-line: underline;
+    text-underline-position: under;
   }
   nav ul li a:hover{
     color: rgb(118, 119, 189);
@@ -138,6 +140,9 @@
     font-weight: bold;
     font-size: 15px;
     transition: .4s;
+  }
+  .navbar-buttons{
+    font-size: 20px;
   }
   button:hover{
     transform: scale(1.3);
