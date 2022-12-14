@@ -385,7 +385,6 @@ footer{
   text-underline-position: under;
   font-weight: bold;
 }
-}
 .terms p {
   letter-spacing: .5px;
   color: rgb(255, 255, 255);
@@ -463,7 +462,7 @@ footer{
     width: 30%;
     margin: 20px;
   }
-
+}
 /*--------------------Scrollbar (universal)------------------*/
     /* width */
     ::-webkit-scrollbar {
@@ -491,150 +490,167 @@ footer{
   ::selection {
       color: black;
       background: #f25a02;
-  }
+    }
 
 /*--------------------------------------------------- mobile ------------------------------------------------*/
 @media screen and (max-width: 1200px) {
 
-.box{
-  width: 70%;
-  background: rgba(0, 0, 0, 0.4);
-  padding: 15px;
-  text-align: center;
-  margin: auto;
-  margin-top: 5%;
-  margin-bottom: 10%;
-  color: white;
-  font-family: 'Century Gothic',sans-serif;
-}
-.box-img{
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-}
-.box h1{
-  font-size: 20px;
-  letter-spacing: 2px;
-  font-weight: 100;
-  align-items: center;
-
-}
-.box h5{
-  font-size: 20px;
-  font-weight: 100;
-  word-spacing: 2px;
-}
-.box p{
-  text-align: center;
-  word-spacing: 2px;
-}
-ul{
-  margin: 0;
-  padding: 0;
-}
-.box li{
-  display: inline-block;
-  margin: 6px;
-  list-style: none;
-}
-.box li a{
-  color: white;
-  text-decoration: none;
-  font-size: 60px;
-  transition: all ease-in-out 250ms;
-}
-.box li a:hover{
-  color: #b9b9b9;
-}
-
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-
-}
-.hero{
-  width: 58%;
-  font-family: 'Josefin Sans', sans-serif;
-}
-nav{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 0px;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-.logo{
-  color:  rgb(110, 108, 194);
-  font-size: 30px;
-  opacity: 100%;
-  font-weight: 100%;
-  padding-left: 2%;
-}
-span{
-  color: rgb(118, 74, 199);
-}
-nav ul li{
-  list-style-type: none;
-  display: inline-block;
-  padding: 5px 10px;
-}
-nav ul li a{
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  margin-right: 50px;
-}
-nav ul li a:hover{
-color: rgb(118, 119, 189);
-transition: .3s;
-}
-.button{
-  border: none;
-  background-color: rgb(110, 108, 194);
-  padding: 6px 20px;
-  border-radius: 30px;
-  color: white;
-  font-weight: bold;
-  font-size: 15px;
-  transition: .4s;
-}
-button:hover{
-  transform: scale(1.1);
-  cursor: pointer;
-  color: rgb(118, 119, 189);
-  transition: .3s;
-}
-
-.social{
-  color: rgb(118, 119, 189);
-  transition: color 0.2s;
-  margin: 5 10px;
-  align-self: ce;
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-decoration: none;
-
-
-}
-.social :hover{
-  color: #e4e3e3;
-}
-
-h3{
-  color: rgb(192, 192, 192);
-  font-size: 20px;
-  font-family: 'Century Gothic',sans-serif;
-
-}
-/*--------------------Project Page------------------*/
+    .box{
+      width: 300px;
+      background: rgba(0, 0, 0, 0.63);
+      padding: 20px;
+      text-align: center;
+      margin: auto;
+      margin-top: 1%;
+      margin-bottom: 5%;
+      color: white;
+      font-family: 'Century Gothic',sans-serif;
+      transition: .4s;
+      border-color: #e4e3e3;
+      border-radius: 10px;
+      max-width: 80%;
+    }
+    .box-img{
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+    }
+    .box h1{
+      font-size: 20px;
+      letter-spacing: 2px;
+      font-weight: 100;
+      align-items: center;
+  
+    }
+    .box h5{
+      font-size: 20px;
+      font-weight: 400;
+      word-spacing: 2px;
+      color: #b9b9b9;
+    }
+    .box p{
+      text-align: center;
+      word-spacing: 2px;
+      font-weight: 100;
+      padding-top: 10px;
+      color: white;
+      font-size: 13px;
+    }
+    ul{
+      margin: 0;
+      padding: 0;
+    }
+    .box li{
+      display: inline-block;
+      margin: 6px;
+      list-style: none;
+    }
+    .box li a{
+      color: white;
+      text-decoration: none;
+      font-size: 20px;
+      transition: all ease-in-out 250ms;
+    }
+    .box li a:hover{
+      color: #b9b9b9;
+    }
+  
+    .social{
+      color: rgb(255, 255, 255);
+      transition: color 0.2s;
+      margin: 5 10px;
+      align-self: ce;
+      padding: 10px;
+      font-size: 20px;
+      width: 25px;
+      text-decoration: none;
+      transition: .5s;
+    }
+    .social :hover{
+      color:  rgb(118, 119, 189);
+    }
+  
+    h3{
+      color: rgb(192, 192, 192);
+      font-size: 17px;
+      font-family: 'Century Gothic',sans-serif;
+  
+    }
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+  
+    }
+    .hero{
+      width: 100%;
+      font-family: 'Josefin Sans', sans-serif;
+    }
+    nav{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 10px;
+      padding-left: 2%;
+      padding-right: 2%;
+    }
+    .logo{
+      color:  rgb(110, 108, 194);
+      font-size: 15px;
+      opacity: 100%;
+      font-weight: 50%;
+      padding-left: 1%;
+      
+    }
+    span{
+      color: rgb(118, 74, 199);
+      font-weight: bold;
+    }
+    nav ul li{
+      list-style-type: none;
+      display: inline-block;
+      padding: 5px;
+      font-size: 13px;
+    }
+    nav ul li a{
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      margin-right: 0px;
+    }
+    nav ul li a:hover{
+      color: rgb(118, 119, 189);
+      transition: .3s;
+    }
+    button{
+      border: none;
+      background-color: rgb(110, 108, 194);
+      padding: 5px 10px;
+      border-radius: 30px;
+      color: white;
+      font-weight: bold;
+      font-size: 10px;
+      transition: .4s;
+    }
+    button:hover{
+      transform: scale(1.3);
+      cursor: pointer;
+      color: rgb(118, 119, 189);
+      transition: .3s;
+    }
+    .hr{
+      width: 100%;
+      height: .1px;
+      border-width: 0;
+      color: rgba(255, 255, 255, 0.336);
+      background-color: rgba(95, 94, 94, 0.63);
+    }
+  /*--------------------Project Page------------------*/
 .border2{
 
   height: 550px;
   background: rgb(0, 0, 0);
-  padding: 1px;
+  padding: 20px;
   text-align: center;
   margin-right: auto;
   margin-left: auto;
@@ -740,11 +756,11 @@ margin: 10px;
 }
 
 footer{
-  background: rgb(27, 27, 27);
+  background: rgb(0, 0, 0);
   width: 100%;
-  padding-top: 20px;
+  padding-top: 10px;
   color: white;
-  margin-top: 2000px;
+  margin-bottom: 100px;
 }
 
 .footer-content {
@@ -775,7 +791,7 @@ color: #b9b9b9;
 
 }
 .footer-bottom{
-background-color: rgba(20, 20, 20, 0.39);
+background-color: rgb(0, 0, 0);
 width: auto;
 padding: 5px;
 text-align: center;
@@ -784,7 +800,7 @@ font-family: sans-serif;
 }
 .footer-bottom p {
 font-size: 12px;
-word-spacing: 2px;
+word-spacing: 1px;
 }
 .footer-bottom span{
 text-transform: uppercase;
@@ -795,7 +811,7 @@ font-weight: 200;
 .navbar-footer {
 transition: 1s;
 overflow: hidden;
-background-color: rgb(27, 27, 27);
+background-color: rgb(0, 0, 0);
 font-family: 'Century Gothic',sans-serif;
 align-items: center;
 justify-content: center;
@@ -808,50 +824,98 @@ margin-bottom: auto;
 
 color: rgba(164, 164, 164, 0.582);
 text-align: center;
-padding: 1px 20px;
+padding: 1px 10px;
 text-decoration: none;
 font-family: 'Century Gothic',sans-serif; 
+font-size: 13px;
 }
 .navbar-footer a:hover {
 color: #b9b9b9;
 }
-/*--------------------Hobbie Page------------------*/
-.parallaxcenter {
-  font-size: 350%;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-weight: bold;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: rgba(0, 0, 0, 0.589);
-  transition: 1s;
-  opacity: 85%;
-  background-image: url(images/shooting-stars-in-sky.jpg) no-repeat;
-}
-.hobbies-page{
-  transition: 1s;
-  margin: 0;
-  padding: 0;
-  background: url(images/shooting-stars-in-sky.jpg) no-repeat;
-  background-size: cover;
-  background-color: rgb(0, 0, 0); 
-  width: 100%;
   }
-  .imgcenter-hobby{
-    display: flex;
+  .footer-rules{
+    font-size: 11px;
+    transition: 1s;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Century Gothic',sans-serif;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    flex-direction: column;
+    text-align: center;
   }
-  .imggallery-hobby{
-    float: left;
-    width: 60%;
-    margin: 10px;
+  .footer-rules a{
+    color: rgba(183, 183, 183, 0.325);
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-family: 'Century Gothic',sans-serif; 
+    text-decoration-line: underline;
+    text-underline-position: under;
   }
-}
+  .footer-rules a:hover{
+    color: rgb(255, 255, 255);
+  }
+  .projectfooter {
+    margin-top: 1800px;
+    background: rgb(0, 0, 0);
+    width: 100%;
+    padding-top: 40px;
+    color: white;
+    margin-bottom: 100px;
+  }
+  /*--------------------Rules Page------------------*/
+  .rules-home a {
+    color: rgba(213, 213, 213, 0.582);
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Century Gothic',sans-serif; 
+    text-decoration: underline;
+    text-underline-position: under;
+  }
+  .rules-home a:hover {
+    color: rgb(255, 255, 255);
+    transition: .4s;
+  }
+  /*--------------------Hobbie Page------------------*/
+  .parallaxcenter {
+      font-size: 550%;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-weight: bold;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: rgba(0, 0, 0, 0.425);
+      transition: 1s;
+      opacity: 50%;
+      background-image: url(images/shooting-stars-in-sky.jpg) no-repeat;
+  }
+    .hobbies-page{
+      transition: 1s;
+      margin: 0;
+      padding: 0;
+      background: url(images/shooting-stars-in-sky.jpg) no-repeat;
+      background-size: cover;
+      background-color: rgb(0, 0, 0); 
+      width: 100%;
+    }
+    .imgcenter-hobby{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 5%;
+      margin-top: 20px;
+    }
+    .imggallery-hobby{
+      float: left;
+      width: 30%;
+      margin: 20px;
+    }
+    
+  
+  
