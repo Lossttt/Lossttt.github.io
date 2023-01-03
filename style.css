@@ -169,7 +169,7 @@
     margin-right: 0%;
     margin-left: 0%;
     margin-top: 0%;
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: 'Century Gothic',sans-serif;
     
   }
@@ -187,7 +187,7 @@
   }
   .projectpage{
     font-family: sans-serif;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 20px;
     margin: 30px 30px;
   }
