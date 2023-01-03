@@ -168,10 +168,13 @@
     text-align: center;
     margin-right: 0%;
     margin-left: 0%;
-    margin-top: 0%;
+    margin-top: 0;
     color: rgb(0, 0, 0);
     font-family: 'Century Gothic',sans-serif;
     
+  }
+  .projectheader {
+    color:  white;
   }
     
   .border2-img{
@@ -187,7 +190,7 @@
   }
   .projectpage{
     font-family: sans-serif;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 20px;
     margin: 30px 30px;
   }
@@ -198,7 +201,9 @@
     font-weight: 150;
     padding-left: 200px;
     padding-right: 200px;
-
+  }
+  .border2 h4{
+  color: white;
   }
 
   .border2{
