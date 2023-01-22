@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href="style.css" rel="stylesheet">
   <link rel="icon" type="alfa2.png" href="images/alfa2.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />       
   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <title>Contact Me</title>
 </head>
@@ -51,28 +52,137 @@
       <div class="border2">
         <h1 class="projectheader">Contact Me</h1>
           <div class="link-content">
+
+
+
+<div class="wrapper">
+  <div class="icon discord">
+  <a href="discordapp.com/users/[935145075132993576]">
+    <div class="tooltip">Discord</div>
+    <span><i class="fab fa-discord"></i></span>
+  </a>
+  </div>
+  <div class="icon twitter">
+  <a href="https://twitter.com/JoeBiden">
+    <div class="tooltip">Twitter</div>
+    <span><i class="fab fa-twitter"></i></span>
+  </a>
+  </div>
+  <div class="icon pinterest">
+    <a href="https://nl.pinterest.com/Lostt_01/">
+    <div class="tooltip" >Pinterest</div>
+    <span><i class="fab fa-pinterest"></i></span>
+    </a>
+    </div>
+    <div class="icon linkedin">
+      <a href="#">
+      <div class="tooltip" >LinkedIn</div>
+      <span><i class="fab fa-linkedin"></i></span>
+      </a>
+      </div>
+<div class="icon github">
+  <a href="https://github.com/Lossttt">
+  <div class="tooltip" >Github</div>
+  <span><i class="fab fa-github"></i></span>
+  </a>
+  </div>
+</div>
+<br>
 <br>
 <br>
 
+<style>
+  .wrapper{
+      display:inline-flex;
+  }
+  .wrapper .icon{
+      margin: 100px 20px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction:column;
+      position: relative;
+      z-index:2;
+  }
+  .wrapper .icon span{
+      position:relative;
+      z-index:2;
+      height: 60px;
+      width: 60px;
+      display:block;
+      background: #fff;
+      box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+      border-radius:50%;
+      text-align:center;
+      transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      align-items:center;
 
-        <ul class="links">
-          <a class="social-links" href="https://discord.gg/a327cwFS">
-            <ion-icon name="logo-discord"></ion-icon>
-              </a>
-          <a class="social-links" href="https://instagram/Ayoubl_01">
-            <ion-icon name="logo-instagram"></ion-icon>
-              </a>
-          <a class="social-links" href="https://nl.pinterest.com/Lostt_01/">
-            <ion-icon name="logo-pinterest"></ion-icon>
-              </a>
-          <a class="social-links" href="https://nl.pinterest.com/Lostt_01/">
-            <ion-icon name="logo-LinkedIn"></ion-icon>
-              </a>
-          <a class="social-links" href="https://nl.pinterest.com/Lostt_01/">
-            <ion-icon name="logo-github"></ion-icon>
-              </a>  
-                <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-                <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  }
+  .wrapper .icon span i{
+      font-size:25px;
+      line-height:60px;
+  }
+  .wrapper .icon .tooltip{
+      position:absolute;
+      top:0px;
+      background: #fff;
+      box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+      font-size: 20px;
+      padding: 10px 18px;
+      border-radius: 25px;
+      color:white;
+      opacity:0;
+      pointer-events: none;
+      transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      }
+  .wrapper .icon:hover .tooltip{
+      opacity:1;
+      pointer-events: auto;
+      top:-70px;
+      }
+  .wrapper .icon .tooltip:before{
+      position:absolute;
+      content:"";
+      height:15px;
+      width:15px;
+      bottom:-8px;
+      left:50%;
+      transform: translateX(-50%) rotate(45deg);
+      }
+  .wrapper .icon:hover span,
+  .wrapp .icon:hover .tooltip{
+      text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+      }
+  .wrapper .icon:hover span{
+      color: #fff;
+      }       
+  .wrapper .discord:hover span,
+  .wrapper .discord:hover .tooltip,
+  .wrapper .discord:hover .tooltip:before{
+      background:#3B5999;
+      }
+  .wrapper .twitter:hover span,
+  .wrapper .twitter:hover .tooltip,
+  .wrapper .twitter:hover .tooltip:before{
+      background:#46C1F6;
+      }
+  .wrapper .github:hover span,
+  .wrapper .github:hover .tooltip,
+  .wrapper .github:hover .tooltip:before{
+      background:#333;
+      }
+  .wrapper .linkedin:hover span,
+  .wrapper .linkedin:hover .tooltip,
+  .wrapper .linkedin:hover .tooltip:before{
+      background:#0445f7;
+      }
+  .wrapper .pinterest:hover span,
+  .wrapper .pinterest:hover .tooltip,
+  .wrapper .pinterest:hover .tooltip:before{
+      background:#ca4238;
+  }
+</style>
 <br>
   <!---Link-End--->
 
